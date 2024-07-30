@@ -1,1 +1,1 @@
-<h1>Contact me</h1>
+<h1>Resume</h1>
