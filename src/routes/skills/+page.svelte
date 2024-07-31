@@ -1,1 +1,5 @@
-<h1>Skills</h1>
+<script>
+    import Skills from "$lib/components/Skills.svelte";
+</script>
+
+<Skills/>
