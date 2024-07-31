@@ -27,6 +27,7 @@
     </svelte:fragment>
     <svelte:fragment slot="trail">
         <div class="hidden md:flex space-x-4">
+            <a class="btn hover:variant-soft-primary" href="/home">Home</a>
             <a class="btn hover:variant-soft-primary" href="/skills">Skills</a>
             <a class="btn hover:variant-soft-primary" href="/resume">Resume</a>
             <a class="btn hover:variant-soft-primary" href="/portfolio">Portfolio</a>
