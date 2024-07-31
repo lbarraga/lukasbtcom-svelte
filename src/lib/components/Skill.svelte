@@ -8,19 +8,18 @@
 
 </script>
 
-<AccordionItem class="variant-ghost-primary">
-
+<AccordionItem class="card-hover variant-ghost-primary">
     <svelte:fragment slot="lead">
         <i class="{icon} fa-5x"></i>
     </svelte:fragment>
 
     <svelte:fragment slot="summary">
-        <div class="flex justify-between items-center">
-            <p class="p-1 font-bold">
+        <div class="flex flex-col items-start md:items-center md:flex-row md:justify-between">
+            <p class="p-1 font-bold mb-4 md:mb-0">
                 {summary}
             </p>
 
-            <div class="flex items-center pr-8">
+            <div class="flex items-center md:ml-4">
                 <StarRating {value} max={5}/>
             </div>
         </div>

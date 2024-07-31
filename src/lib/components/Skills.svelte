@@ -3,18 +3,28 @@
     import Skill from "$lib/components/Skill.svelte";
 </script>
 
-<div class="p-4">
+<div class="p-8">
     <Accordion class="space-y-5">
         <Skill
                 icon="fa-brands fa-python"
-                summary="Skilled in Python for a range of applications, from data manipulation and web scraping to automation and AI."
+                summary="
+                    Skilled in Python for a range of applications,
+                    from data manipulation and web scraping to automation and AI.
+                "
                 value={4.5}
-        />
+        >
+            hello
+        </Skill>
         <Skill
                 icon="fa-brands fa-js"
-                summary="Experienced in JavaScript for dynamic web development, including both frontend and backend frameworks."
+                summary="
+                    Experienced in JavaScript for dynamic web development,
+                    including both frontend and backend frameworks.
+                "
                 value={4}
-        />
+        >
+            hello
+        </Skill>
         <Skill
                 icon="fa-brands fa-java"
                 summary="Proficient in Java for building robust and scalable applications, with knowledge of various Java frameworks."
