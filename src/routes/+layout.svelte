@@ -1,17 +1,12 @@
 <script>
 	import '../app.postcss';
-	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
-	import Navigation from '$lib/navigation/Navigation.svelte';
-	import { initializeStores, Drawer, getDrawerStore } from '@skeletonlabs/skeleton';
-	import { LightSwitch } from '@skeletonlabs/skeleton';
+	import { AppShell } from '@skeletonlabs/skeleton';
+	import Navigation from '$lib/components/Navigation.svelte';
+	import { initializeStores, Drawer } from '@skeletonlabs/skeleton';
+	import Header from "$lib/components/Header.svelte";
 
 	initializeStores();
 
-	const drawerStore = getDrawerStore();
-
-	function drawerOpen() {
-		drawerStore.open({});
-	}
 </script>
 
 <Drawer>
@@ -19,39 +14,17 @@
 </Drawer>
 
 <!-- App Shell -->
-<AppShell slotSidebarLeft="bg-surface-500/5 w-0 md:w-64">
+<AppShell slotSidebarLeft="bg-surface-500/5 w-0 md:w-64" slotFooter="bg-black p-4">
 	<svelte:fragment slot="header">
-		<!-- App Bar -->
-		<AppBar>
-			<svelte:fragment slot="lead">
-				<div class="flex items-center">
-					<button class="md:hidden btn btn-sm mr-4" on:click={drawerOpen}>
-						<span>
-							<svg viewBox="0 0 100 80" class="fill-token w-4 h-4">
-								<rect width="100" height="20" />
-								<rect y="30" width="100" height="20" />
-								<rect y="60" width="100" height="20" />
-							</svg>
-						</span>
-					</button>
-					<a href="/">
-						<strong class="text-base uppercase">Lukas Barragan Torres</strong>
-					</a>
-				</div>
-			</svelte:fragment>
-			<svelte:fragment slot="trail">
-				<div class="hidden md:flex space-x-4">
-					<a class="btn hover:variant-soft-primary" href="/skills">Skills</a>
-					<a class="btn hover:variant-soft-primary" href="/resume">Resume</a>
-					<a class="btn hover:variant-soft-primary" href="/portfolio">Portfolio</a>
-					<a class="btn hover:variant-soft-primary" href="/contact">Contact</a>
-				</div>
-				<LightSwitch />
-			</svelte:fragment>
-		</AppBar>
+		<Header/>
 	</svelte:fragment>
 
-	<!-- Page Route Content -->
+	<!-- Page Content -->
 	<slot />
-</AppShell>
 
+	<!-- Page Footer -->
+	<svelte:fragment slot="pageFooter">
+		<h1>Hello</h1>
+	</svelte:fragment>
+
+</AppShell>
