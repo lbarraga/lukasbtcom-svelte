@@ -15,9 +15,9 @@
 
     <svelte:fragment slot="summary">
         <div class="flex flex-col items-start md:items-center md:flex-row md:justify-between">
-            <p class="p-1 font-bold mb-4 md:mb-0">
+            <h1 class="font-bold mb-4 md:mb-0">
                 {summary}
-            </p>
+            </h1>
 
             <div class="flex items-center md:ml-4">
                 <StarRating {value} max={5}/>
