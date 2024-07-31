@@ -4,6 +4,7 @@
 	import Navigation from '$lib/components/Navigation.svelte';
 	import { initializeStores, Drawer } from '@skeletonlabs/skeleton';
 	import Header from "$lib/components/Header.svelte";
+	import Footer from "$lib/components/Footer.svelte";
 
 	initializeStores();
 
@@ -24,7 +25,7 @@
 
 	<!-- Page Footer -->
 	<svelte:fragment slot="pageFooter">
-		<h1>Hello</h1>
+		<Footer/>
 	</svelte:fragment>
 
 </AppShell>
