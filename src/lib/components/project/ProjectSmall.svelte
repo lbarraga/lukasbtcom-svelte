@@ -17,6 +17,7 @@
             {title}
         </h3>
 
+        <!-- Arrow Icon -->
         <span>
             <i class="fa-solid fa-arrow-right text-xl"></i>
         </span>
