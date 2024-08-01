@@ -1,14 +1,41 @@
-<div class="flex space-x-1 text-yellow-500">
-    {#each Array(5) as _, index}
-        {#if 3 >= index + 1}
-            <!-- Full Star -->
-            <i class="fa-solid fa-star"></i>
-        {:else if 3 >= index + 0.5}
-            <!-- Half Star -->
-            <i class="fa-solid fa-star-half-alt"></i>
-        {:else}
-            <!-- Empty Star -->
-            <i class="fa-regular fa-star"></i>
-        {/if}
-    {/each}
+<script>
+    import ProjectCard from "$lib/components/project/ProjectCard.svelte";
+    import { page } from '$app/stores'
+
+    import data from "$lib/data/projects.json";
+
+    let  searchString = $page.url.searchParams.get('search') || ""
+
+    $: filteredData = data.filter(item => {
+        const searchTerm = searchString.toLowerCase();
+        return (
+            item.title.toLowerCase().includes(searchTerm) ||
+            item.description.toLowerCase().includes(searchTerm) ||
+            item.bullets.some(bullet => bullet.toLowerCase().includes(searchTerm)) ||
+            item.id === searchTerm
+        );
+    });
+
+</script>
+
+
+<div class="flex justify-center items-center w-full">
+    <input class="input w-1/2 p-2 mt-10 text-lg"
+           type="search"
+           bind:value={searchString}
+           placeholder="Search..." />
 </div>
+
+<ul>
+    {#each filteredData as item}
+        <li>
+            <ProjectCard
+                title={item.title}
+                description={item.description}
+                avatar={item.avatar}
+                link={item.link}
+                bullets={item.bullets}
+            />
+        </li>
+    {/each}
+</ul>

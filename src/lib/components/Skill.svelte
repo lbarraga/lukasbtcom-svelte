@@ -10,7 +10,7 @@
 
 </script>
 
-<AccordionItem class="card-hover variant-ghost-primary">
+<AccordionItem class="card-hover variant-soft-primary">
     <svelte:fragment slot="lead">
         <i class="{icon} fa-5x"></i>
     </svelte:fragment>
@@ -35,7 +35,7 @@
         <nav class="list-nav">
             <ul>
                 {#each projects as project}
-                    <ProjectSmall {...project}/>
+                    <ProjectSmall {project}/>
                 {/each}
             </ul>
         </nav>

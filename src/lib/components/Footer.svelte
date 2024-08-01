@@ -8,7 +8,7 @@
             </p>
         </div>
 
-        <!-- Social Icons -->
+            <!-- Social Icons -->
         <div class="flex space-x-4 mr-3">
             <!-- GitHub Icon -->
             <a href="https://github.com/lbarraga" target="_blank" rel="noreferrer">

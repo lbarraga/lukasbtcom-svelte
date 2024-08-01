@@ -2,6 +2,8 @@
 
 - [ ] Skills moeten in een grid komen
 - [x] json lijst met skills moet een lijst hebben met projecten. De hele json wordt dan aan skill gegeven.
+- [ ] big and small project info in same json
+- [ ] data op één plaats
 
 # Ideetjes
 

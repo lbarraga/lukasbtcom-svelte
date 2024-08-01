@@ -1,20 +1,22 @@
 <script>
-    export let href;
-    export let icon;
-    export let title;
+    import projects from "$lib/data/projects.json";
+
+    export let project;
+
+    let projectData = projects.find(p => p.id === project);
 </script>
 
 <li>
-    <a {href}>
+    <a href="/portfolio?search={projectData.id}">
 
         <!-- Icon -->
         <span class="badge-icon bg-primary-500">
-            <i class="{icon} fa-2x"></i>
+            <i class="{projectData.icon} fa-2x"></i>
         </span>
 
         <!-- Title -->
         <h3 class="flex-auto">
-            {title}
+            {projectData.title}
         </h3>
 
         <!-- Arrow Icon -->
