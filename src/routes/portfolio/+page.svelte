@@ -20,7 +20,7 @@
 
 
 <div class="flex justify-center items-center w-full">
-    <input class="input w-1/2 p-2 mt-10 text-lg"
+    <input class="input w-3/4 md:w-1/2 p-2 mt-10 text-lg"
            type="search"
            bind:value={searchString}
            placeholder="Search..." />
