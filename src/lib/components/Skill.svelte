@@ -1,10 +1,12 @@
 <script>
     import { AccordionItem } from "@skeletonlabs/skeleton";
     import StarRating from "$lib/components/StarRating.svelte";
+    import ProjectSmall from "$lib/components/project/ProjectSmall.svelte";
 
     export let icon;
     export let summary;
     export let value;
+    export let projects;
 
 </script>
 
@@ -27,7 +29,16 @@
 
 
     <svelte:fragment slot="content">
-        <slot />
+        <h2 class="text-2xl font-bold mb-4">
+            Projects
+        </h2>
+        <nav class="list-nav">
+            <ul>
+                {#each projects as project}
+                    <ProjectSmall {...project}/>
+                {/each}
+            </ul>
+        </nav>
     </svelte:fragment>
 
 </AccordionItem>

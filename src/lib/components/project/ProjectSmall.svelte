@@ -16,5 +16,9 @@
         <h3 class="flex-auto">
             {title}
         </h3>
+
+        <span>
+            <i class="fa-solid fa-arrow-right text-xl"></i>
+        </span>
     </a>
 </li>
