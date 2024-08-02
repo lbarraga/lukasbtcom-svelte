@@ -1,1 +1,5 @@
-<h1>Resume</h1>
+<script>
+    import Timeline from "$lib/components/Timeline.svelte";
+</script>
+
+<Timeline/>
