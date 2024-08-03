@@ -79,9 +79,6 @@
         }
     ];
 
-    // Projects Section
-    const projects = "I have worked on various personal and group projects. More details can be found in the <a href='/portfolio' class='text-blue-600 hover:underline'>Portfolio</a> section of my website.";
-
     // Icon data
     const icons = [
         {
