@@ -107,20 +107,20 @@
     ];
 </script>
 
-<div class="variant-ghost-surface w-3/5 mx-auto p-10">
+<div class="variant-ghost-surface w-full md:w-3/5 mx-auto p-4 md:p-10">
 
     <!-- Profile Picture and Heading -->
-    <div class="flex mb-10">
-        <Avatar src={profilePic} rounded="rounded-xl" class="mr-4 w-44"/>
+    <div class="flex flex-col md:flex-row mb-10">
+        <Avatar src={profilePic} rounded="rounded-xl" class="mb-4 md:mb-0 md:mr-4 w-44"/>
         <div>
-            <h1 class="text-5xl mb-2 font-extrabold">{profile.name}</h1>
-            <p class="text-2xl">{profile.title}</p>
+            <h1 class="text-3xl md:text-5xl mb-2 font-extrabold">{profile.name}</h1>
+            <p class="text-xl md:text-2xl">{profile.title}</p>
 
-            <div class="grid grid-cols-2 gap-4 mt-4">
+            <div class="flex flex-col mt-4">
                 {#each icons as icon}
-                    <div class="flex items-center">
-                        <i class={icon.class + " text-xl mr-2"}></i>
-                        <a href={icon.link} class="text-lg" target={icon.link ? "_blank" : ""}>{icon.text}</a>
+                    <div class="flex items-center mb-2">
+                        <i class={icon.class + " text-lg md:text-xl mr-2"}></i>
+                        <a href={icon.link} class="text-sm md:text-lg" target={icon.link ? "_blank" : ""}>{icon.text}</a>
                     </div>
                 {/each}
             </div>
@@ -129,23 +129,23 @@
 
     <!-- Personal Statement -->
     <div class="mb-10">
-        <h2 class="text-4xl mb-4 font-bold">Personal Statement</h2>
-        <p class="text-lg">{personalStatement}</p>
+        <h2 class="text-2xl md:text-4xl mb-4 font-bold">Personal Statement</h2>
+        <p class="text-sm md:text-lg">{personalStatement}</p>
     </div>
 
     <!-- Timeline and Skills Section -->
-    <div class="flex items-start">
-        <div class="w-1/2 pr-4">
-            <h2 class="text-4xl mb-4 font-bold">Timeline</h2>
+    <div class="flex flex-col md:flex-row items-start">
+        <div class="w-full md:w-1/2 md:pr-4">
+            <h2 class="text-2xl md:text-4xl mb-4 font-bold">Timeline</h2>
             <Timeline/>
 
             <!-- Extracurricular Activities -->
             <div class="mb-10">
-                <h2 class="text-4xl mb-4 font-bold">Extracurricular Activities</h2>
-                <div class="text-lg">
+                <h2 class="text-2xl md:text-4xl mb-4 font-bold">Extracurricular Activities</h2>
+                <div class="text-sm md:text-lg">
                     {#each extracurricularActivities as activity}
                         <div class="mb-4">
-                            <div class="font-semibold text-xl">{activity.title}</div>
+                            <div class="font-semibold text-lg md:text-xl">{activity.title}</div>
                             <p>{activity.description}</p>
                         </div>
                     {/each}
@@ -154,19 +154,19 @@
         </div>
 
         <!-- Vertical Divider -->
-        <span class="border-l-2 border-gray-300 h-full mx-4"></span>
+        <span class="hidden md:block border-l-2 border-gray-300 h-full mx-4"></span>
 
-        <div class="w-1/2 pl-4">
+        <div class="w-full md:w-1/2 md:pl-4">
             <!-- Skills Section -->
             <div class="mb-10">
-                <h2 class="text-4xl mb-4 font-bold">Skills</h2>
-                <ul class="text-xl list-disc list-inside">
+                <h2 class="text-2xl md:text-4xl mb-4 font-bold">Skills</h2>
+                <ul class="text-sm md:text-xl list-disc list-inside">
                     {#each skills as skill}
                         <li class="mb-4 flex items-start">
-                            <i class="fa-solid fa-gem text-lg mr-2"></i>
+                            <i class="fa-solid fa-gem text-lg md:text-xl mr-2"></i>
                             <div>
-                                <div class="font-semibold text-xl">{skill.category}</div>
-                                <p class="text-lg">{skill.items.join(", ")}</p>
+                                <div class="font-semibold text-lg md:text-xl">{skill.category}</div>
+                                <p class="text-sm md:text-lg">{skill.items.join(", ")}</p>
                             </div>
                         </li>
                     {/each}
@@ -175,8 +175,8 @@
 
             <!-- Projects Section -->
             <div class="mb-10">
-                <h2 class="text-4xl mb-4 font-bold">Projects</h2>
-                <p class="text-lg">
+                <h2 class="text-2xl md:text-4xl mb-4 font-bold">Projects</h2>
+                <p class="text-sm md:text-lg">
                     I have worked on various personal and group projects.
                     More details can be found in the
                     <a href='/portfolio' class='hover:underline'>Portfolio</a>
@@ -186,14 +186,14 @@
 
             <!-- Certifications Section -->
             <div class="mb-10">
-                <h2 class="text-4xl mb-4 font-bold">Certifications</h2>
-                <div class="text-lg">
+                <h2 class="text-2xl md:text-4xl mb-4 font-bold">Certifications</h2>
+                <div class="text-sm md:text-lg">
                     {#each certifications as cert}
                         <div class="mb-6 flex items-start">
-                            <i class="fa-solid fa-award text-2xl mr-2"></i>
+                            <i class="fa-solid fa-award text-lg md:text-2xl mr-2"></i>
                             <div>
-                                <div class="font-semibold text-xl">{cert.title}</div>
-                                <p class="text-md">{cert.description}</p>
+                                <div class="font-semibold text-lg md:text-xl">{cert.title}</div>
+                                <p class="text-sm md:text-md">{cert.description}</p>
                             </div>
                         </div>
                     {/each}

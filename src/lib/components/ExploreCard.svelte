@@ -5,7 +5,7 @@
     export let link = '/';
 </script>
 
-<a href="{link}" class="relative card variant-soft-primary card-hover p-4 flex items-center space-x-4">
+<a href="{link}" class="relative card variant-ghost-secondary card-hover p-4 flex items-center space-x-4">
     <!-- Icon -->
     <span class="flex items-center justify-center">
         <i class="fa-solid {icon} text-3xl"></i>
