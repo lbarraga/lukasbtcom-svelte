@@ -1,4 +1,4 @@
-<div class="page-footer mt-5">
+<div class="page-footer">
     <hr/>
     <div class="w-full max-w-7xl mx-auto py-4 flex items-center justify-between">
         <!-- Empty Flex Grow for Centering -->

@@ -8,7 +8,7 @@
     export let bullets;
 </script>
 
-<div class="relative card variant-soft-primary p-6 m-10 card-hover flex flex-col items-center lg:flex-row lg:items-start space-y-6 lg:space-y-0 lg:space-x-6">
+<div class="relative card variant-ghost-secondary p-6 m-10 card-hover flex flex-col items-center lg:flex-row lg:items-start space-y-6 lg:space-y-0 lg:space-x-6">
     <!-- Icon -->
     <div class="flex-shrink-0 lg:mr-6">
         <Avatar src={avatar} width="w-32 lg:w-64" rounded="rounded-full" />

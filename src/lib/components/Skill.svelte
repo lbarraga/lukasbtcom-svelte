@@ -10,7 +10,7 @@
 
 </script>
 
-<AccordionItem class="card-hover variant-soft-primary">
+<AccordionItem class="card-hover variant-ghost-secondary">
     <svelte:fragment slot="lead">
         <i class="{icon} fa-5x"></i>
     </svelte:fragment>
