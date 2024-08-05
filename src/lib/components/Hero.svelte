@@ -1,6 +1,5 @@
 <script>
     import ImageOfMe from "$lib/images/me-bw.jpg";
-    import arrowDown from "$lib/images/down.svg";
 
     export let scrollToElement
 </script>
