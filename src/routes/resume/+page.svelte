@@ -176,7 +176,7 @@
                 <p class="text-sm md:text-lg">
                     I have worked on various personal and group projects.
                     More details can be found in the
-                    <a href='/portfolio' class='hover:underline'>Portfolio</a>
+                    <a href='/portfolio' class='hover:underline font-bold'>Portfolio</a>
                     section of my website.
                 </p>
             </div>
