@@ -12,7 +12,7 @@
 
 <AccordionItem class="card-hover variant-soft-surface">
     <svelte:fragment slot="lead">
-        <i class="{icon} fa-5x"></i>
+        <i class="iconify text-8xl" data-icon="{icon}"></i>
     </svelte:fragment>
 
     <svelte:fragment slot="summary">
