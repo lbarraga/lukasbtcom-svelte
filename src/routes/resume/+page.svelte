@@ -52,14 +52,14 @@
     // Certifications
     const certifications = [
         {
-            title: "Bachelor's in Informatics",
-            institution: "University Name",
-            description: "Comprehensive undergraduate program focusing on various aspects of computer science and information technology."
-        },
-        {
             title: "Lifeguard Certification",
             institution: "Certification Body",
             description: "Certified lifeguard with training in water safety, rescue techniques, and first aid."
+        },
+        {
+            title: "Bachelor's in Informatics",
+            institution: "University Name",
+            description: "Comprehensive undergraduate program focusing on various aspects of computer science and information technology."
         }
     ];
 
@@ -82,22 +82,22 @@
     // Icon data
     const icons = [
         {
-            class: "fa-solid fa-envelope",
+            class: "fa6-solid:envelope",
             link: `mailto:${profile.email}`,
             text: profile.email
         },
         {
-            class: "fa-brands fa-linkedin",
+            class: "fa6-brands:linkedin",
             link: profile.linkedin,
             text: "LinkedIn"
         },
         {
-            class: "fa-solid fa-map-marker-alt",
+            class: "fa-solid:map-marker-alt",
             link: profile.locationLink,
             text: profile.location
         },
         {
-            class: "fa-brands fa-github",
+            class: "fa6-brands:github",
             link: profile.github,
             text: "GitHub"
         }
@@ -116,8 +116,8 @@
             <div class="flex flex-col mt-4">
                 {#each icons as icon}
                     <div class="flex items-center mb-2">
-                        <i class={icon.class + " text-lg md:text-xl mr-2"}></i>
-                        <a href={icon.link} class="text-sm md:text-lg" target={icon.link ? "_blank" : ""}>{icon.text}</a>
+                        <i class="iconify text-lg md:text-xl mr-2" data-icon={icon.class}></i>
+                        <a href={icon.link} class="text-sm md:text-lg hover:underline" target={icon.link ? "_blank" : ""}>{icon.text}</a>
                     </div>
                 {/each}
             </div>
@@ -160,7 +160,8 @@
                 <ul class="text-sm md:text-xl list-disc list-inside">
                     {#each skills as skill}
                         <li class="mb-4 flex items-start">
-                            <i class="fa-solid fa-gem text-lg md:text-xl mr-2"></i>
+                            <i class="iconify text-sm mr-2 mt-2" data-icon="fa-solid:gem"></i>
+
                             <div>
                                 <div class="font-semibold text-lg md:text-xl">{skill.category}</div>
                                 <p class="text-sm md:text-lg">{skill.items.join(", ")}</p>
@@ -181,21 +182,24 @@
                 </p>
             </div>
 
-            <!-- Certifications Section -->
             <div class="mb-10">
                 <h2 class="text-2xl md:text-4xl mb-4 font-bold">Certifications</h2>
                 <div class="text-sm md:text-lg">
                     {#each certifications as cert}
-                        <div class="mb-6 flex items-start">
-                            <i class="fa-solid fa-award text-lg md:text-2xl mr-2"></i>
-                            <div>
-                                <div class="font-semibold text-lg md:text-xl">{cert.title}</div>
-                                <p class="text-sm md:text-md">{cert.description}</p>
+                        <div class="mb-6">
+                            <div class="flex items-center ">
+                                <i class="iconify mr-2 text-2xl" data-icon="ph:certificate"></i>
+                                <h2 class="font-semibold">
+                                    {cert.title}
+                                </h2>
                             </div>
+                            <p>{cert.description}</p>
                         </div>
                     {/each}
                 </div>
             </div>
+
+
         </div>
     </div>
 </div>

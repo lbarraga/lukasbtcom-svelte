@@ -9,19 +9,19 @@
 
     <!-- GitHub -->
     <a class="logo-item" target="_blank" href="https://github.com/lbarraga">
-        <span><i class="fa-brands fa-github fa-lg"></i></span>
+        <i class="iconify text-xl" data-icon="fa6-brands:github"></i>
         <span>GitHub</span>
     </a>
 
     <!-- Linkedin -->
     <a class="logo-item" target="_blank" href="https://www.linkedin.com/in/lukas-barragan-torres/">
-        <span><i class="fa-brands fa-linkedin fa-lg"></i></span>
+        <i class="iconify text-xl" data-icon="fa6-brands:linkedin"></i>
         <span>Linkedin</span>
     </a>
 
     <!-- Email -->
     <a class="logo-item" target="_blank" href="mailto:elbarragan03@gmail.com">
-        <span><i class="fa-solid fa-envelope fa-lg"></i></span>
+        <i class="iconify text-xl" data-icon="fa6-solid:envelope"></i>
         <span>Email</span>
     </a>
 </div>
