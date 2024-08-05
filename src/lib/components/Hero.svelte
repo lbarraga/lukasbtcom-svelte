@@ -15,7 +15,7 @@
                 <span class="font-extrabold text-tertiary-500">tech</span>.
             </p>
             <button type="button" on:click={scrollToElement} class="btn-icon btn-icon-xl variant-filled mt-10">
-                <i class="fa-solid fa-arrow-down text-4xl animate-pulse"></i>
+                <i class="iconify text-5xl animate-pulse" data-icon="mdi:arrow-down" data-inline="false"></i>
             </button>
         </div>
     </div>

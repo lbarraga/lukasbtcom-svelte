@@ -8,7 +8,7 @@
 <a href="{link}" class="relative card variant-soft-surface card-hover p-4 flex items-center space-x-4">
     <!-- Icon -->
     <span class="flex items-center justify-center">
-        <i class="fa-solid {icon} text-3xl"></i>
+        <i class="iconify text-4xl" data-icon="{icon}"></i>
     </span>
 
     <!-- Content -->

@@ -10,25 +10,25 @@
     <ExploreCard
             title="Skills"
             description="Explore the skills I've acquired over the years."
-            icon="fa-tools"
+            icon="fa-solid:tools"
             link="/skills"
     />
     <ExploreCard
             title="Resume"
             description="View my resume and learn more about my professional experience."
-            icon="fa-file-alt"
+            icon="fa-solid:file-alt"
             link="/resume"
     />
     <ExploreCard
             title="Portfolio"
             description="Discover the projects I've worked on and the technologies I've used."
-            icon="fa-paint-brush"
+            icon="fa6-solid:paintbrush"
             link="/portfolio"
     />
     <ExploreCard
             title="Contact"
             description="Get in touch with me and let's connect!"
-            icon="fa-user-friends"
+            icon="fa-solid:user-friends"
             link="/contact"
     />
 </div>
