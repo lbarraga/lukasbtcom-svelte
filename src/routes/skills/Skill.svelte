@@ -1,0 +1,61 @@
+<script>
+    import StarRating from "$lib/components/StarRating.svelte";
+
+    export let skill;
+    export let technologies;
+    export let description;
+    export let projects; // List of projects
+</script>
+
+<div class="p-6 variant-soft-surface m-5 space-y-4 text-center border border-gray-200 rounded-lg shadow-md">
+    <!-- Skill Title -->
+    <div>
+        <h1 class="text-2xl font-semibold mb-4">{skill}</h1>
+    </div>
+
+    <hr class="my-4"/>
+
+    <!-- Technology Icons -->
+    <div class="flex flex-wrap justify-around items-center mb-4">
+        {#each technologies as tech}
+            <div class="flex flex-col items-center text-center m-2">
+                <i class="iconify text-5xl" data-icon="{tech.icon}"></i>
+                <span class="mt-2 text-lg font-medium">{tech.name}</span>
+                <StarRating className="text-xs mt-1" value={tech.value} max={3}/>
+            </div>
+        {/each}
+    </div>
+
+    <hr class="my-4"/>
+
+    <!-- Description -->
+    <div class="mb-4">
+        <p>{description}</p>
+    </div>
+
+    <!-- Projects List -->
+    {#if projects.length > 0}
+        <ul class="space-y-4">
+            {#each projects as project}
+                <li>
+                    <a href={project.link} class="card-hover variant-soft-surface flex items-center p-4">
+                        <!-- Icon -->
+                        <span class="badge-icon p-3 rounded-full mr-4">
+                            <i class="{project.icon} fa-2x"></i>
+                        </span>
+
+                        <!-- Title -->
+                        <h3 class="flex-auto text-lg font-semibold">
+                            {project.title}
+                        </h3>
+
+                        <!-- Arrow Icon -->
+                        <span>
+                            <i class="fa-solid fa-arrow-right text-xl"></i>
+                        </span>
+                    </a>
+                </li>
+            {/each}
+        </ul>
+    {/if}
+</div>

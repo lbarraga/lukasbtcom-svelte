@@ -2,13 +2,23 @@
 	import '../app.postcss';
 	import { AppShell } from '@skeletonlabs/skeleton';
 	import Navigation from '$lib/components/Navigation.svelte';
-	import { initializeStores, Drawer } from '@skeletonlabs/skeleton';
+	import { initializeStores, Drawer, Modal } from '@skeletonlabs/skeleton';
 	import Header from "$lib/components/Header.svelte";
 	import Footer from "$lib/components/Footer.svelte";
+	import StarLegendModal from "./skills/StarLegendModal.svelte";
+
+	const modalRegistry = {
+		// Set a unique modal ID, then pass the component reference
+		modalComponentOne: { ref: StarLegendModal },
+		// ...
+	};
+
 
 	initializeStores();
 
 </script>
+
+<Modal components={modalRegistry} />
 
 <Drawer>
 	<Navigation />
