@@ -1,5 +1,8 @@
 <script>
-    import ImageOfMe from "$lib/images/me-bw.jpg"
+    import ImageOfMe from "$lib/images/me-bw.jpg";
+    import arrowDown from "$lib/images/down.svg";
+
+    export let scrollToElement
 </script>
 
 <div class="flex flex-col md:flex-row items-center m-10">
@@ -12,6 +15,9 @@
                 a <span class="font-extrabold text-tertiary-500">Computer Science</span> student passionate about
                 <span class="font-extrabold text-tertiary-500">tech</span>.
             </p>
+            <button type="button" on:click={scrollToElement} class="btn-icon btn-icon-xl variant-filled mt-10">
+                <i class="fa-solid fa-arrow-down text-4xl animate-pulse"></i>
+            </button>
         </div>
     </div>
 </div>
