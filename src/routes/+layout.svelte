@@ -1,7 +1,7 @@
 <script>
 	import '../app.postcss';
 	import { AppShell } from '@skeletonlabs/skeleton';
-	import Navigation from '$lib/components/Navigation.svelte';
+	import Navigation from './Navigation.svelte';
 	import { initializeStores, Drawer, Modal } from '@skeletonlabs/skeleton';
 	import Header from "./Header.svelte";
 	import Footer from "./Footer.svelte";
