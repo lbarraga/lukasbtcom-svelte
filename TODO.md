@@ -5,7 +5,11 @@
 - [x] big and small project info in same json
 - [ ] data op één plaats
 - [ ] Hero moet overal even groot zijn
+- [ ] Referencies naar fotos op lukasbt.com moeten lokaal staan
+- [ ] fix footer icons 
+- [ ] componenten in lib bij de paginas zetten
+- [ ] switch languages
 
 # Ideetjes
 
-- [ ] [Input chips](https://www.skeleton.dev/components/input-chips) voor zoeken naar skills. (bv tags voor fastapi)
+- [ ] virtual business card met qr code
