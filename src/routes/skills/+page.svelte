@@ -122,34 +122,6 @@
 
 </script>
 
-<!-- Legend for Star Ratings -->
-<div class="card p-4 variant-filled-surface" data-popup="popupFeatured">
-    <h2 class="text-xl font-semibold mb-2 text-center">Star Rating Legend</h2>
-    <div class="space-y-2">
-        <div class="flex items-center">
-            <div class="w-16 flex justify-center">
-                <StarRating class="text-xs" value={1} max={3} />
-            </div>
-            <span class="ml-4 whitespace-nowrap">I can find my way with some effort and a search engine</span>
-        </div>
-        <div class="flex items-center">
-            <div class="w-16 flex justify-center">
-                <StarRating class="text-xs" value={2} max={3} />
-            </div>
-            <span class="ml-4 whitespace-nowrap">I know general concepts and/or can apply knowledge from other fields</span>
-        </div>
-        <div class="flex items-center">
-            <div class="w-16 flex justify-center">
-                <StarRating class="text-xs" value={3} max={3} />
-            </div>
-            <span class="ml-4 whitespace-nowrap">I am very confident in my skills</span>
-        </div>
-    </div>
-</div>
-
-
-
-
 <div class="p-6 mx-auto">
     <!-- Page Title -->
     <div class="text-center mb-6">
