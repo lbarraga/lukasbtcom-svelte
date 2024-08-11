@@ -1,5 +1,5 @@
 <script>
-    import ProjectCard from "$lib/components/project/ProjectCard.svelte";
+    import ProjectCard from "./ProjectCard.svelte";
     import { page } from '$app/stores'
 
     import data from "$lib/data/projects.json";
