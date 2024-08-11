@@ -1,5 +1,5 @@
 <script>
-    import Timeline from "$lib/components/Timeline.svelte";
+    import Timeline from "./Timeline.svelte";
     import profilePic from "$lib/images/me-casual.jpg";
     import { Avatar } from "@skeletonlabs/skeleton";
 
