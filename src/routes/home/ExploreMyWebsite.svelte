@@ -1,5 +1,5 @@
 <script>
-    import ExploreCard from "$lib/components/ExploreCard.svelte";
+    import ExploreCard from "./ExploreCard.svelte";
 </script>
 
 <h1 class="p-10 text-center text-3xl font-extrabold">

@@ -1,6 +1,6 @@
 <script>
     import Hero from "$lib/components/Hero.svelte";
-    import ExploreMyWebsite from "$lib/components/ExploreMyWebsite.svelte";
+    import ExploreMyWebsite from "./ExploreMyWebsite.svelte";
 
     let scrollTarget;
 
