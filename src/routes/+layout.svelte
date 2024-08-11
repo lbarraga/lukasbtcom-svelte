@@ -6,12 +6,18 @@
 	import Header from "$lib/components/Header.svelte";
 	import Footer from "$lib/components/Footer.svelte";
 	import StarLegendModal from "./skills/StarLegendModal.svelte";
+	import { afterNavigate } from '$app/navigation';
 
 	const modalRegistry = {
 		// Set a unique modal ID, then pass the component reference
 		modalComponentOne: { ref: StarLegendModal },
 		// ...
 	};
+
+	// Fix scroll issue bug: https://github.com/sveltejs/kit/issues/2733
+	afterNavigate(() => {
+		document.getElementById('page')?.scrollTo(0, 0);
+	});
 
 
 	initializeStores();
