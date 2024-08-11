@@ -3,8 +3,8 @@
 	import { AppShell } from '@skeletonlabs/skeleton';
 	import Navigation from '$lib/components/Navigation.svelte';
 	import { initializeStores, Drawer, Modal } from '@skeletonlabs/skeleton';
-	import Header from "$lib/components/Header.svelte";
-	import Footer from "$lib/components/Footer.svelte";
+	import Header from "./Header.svelte";
+	import Footer from "./Footer.svelte";
 	import StarLegendModal from "./skills/StarLegendModal.svelte";
 	import { afterNavigate } from '$app/navigation';
 
