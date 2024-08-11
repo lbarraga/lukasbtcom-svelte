@@ -20,7 +20,7 @@
                     </svg>
                 </span>
             </button>
-            <a href="/static">
+            <a href="/">
                 <strong class="text-base uppercase">Lukas Barragan Torres</strong>
             </a>
         </div>
