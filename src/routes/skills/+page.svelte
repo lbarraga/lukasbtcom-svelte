@@ -1,7 +1,7 @@
 <!-- src/pages/SkillsPage.svelte -->
 <script>
     import Skill from "./Skill.svelte";
-    import StarRating from "$lib/components/StarRating.svelte";
+    import StarRating from "./StarRating.svelte";
     import { getModalStore } from '@skeletonlabs/skeleton';
 
     const modalStore = getModalStore();

@@ -1,5 +1,5 @@
 <script>
-    import StarRating from "$lib/components/StarRating.svelte";
+    import StarRating from "./StarRating.svelte";
 
     export let skill;
     export let technologies;

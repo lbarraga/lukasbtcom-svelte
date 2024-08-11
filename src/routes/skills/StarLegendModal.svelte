@@ -1,6 +1,6 @@
 <script>
     import { getModalStore } from '@skeletonlabs/skeleton';
-    import StarRating from "$lib/components/StarRating.svelte";
+    import StarRating from "./StarRating.svelte";
 
     const modalStore = getModalStore();
 
