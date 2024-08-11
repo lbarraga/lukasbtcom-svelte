@@ -107,6 +107,7 @@
             skill: "Other Tools",
             technologies: [
                 { name: 'Docker', icon: 'mdi:docker', value: 2},
+                { name: 'Synology NAS', icon: 'arcticons:synology-assistant', value: 1.5},
                 { name: 'Bash', icon: 'devicon-plain:bash', value: 2},
                 { name: 'Microsoft Azure', icon: 'devicon-plain:azure', value: 1},
             ],
