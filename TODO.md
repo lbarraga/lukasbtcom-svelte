@@ -7,7 +7,7 @@
 - [ ] Hero moet overal even groot zijn
 - [ ] Referencies naar fotos op lukasbt.com moeten lokaal staan
 - [ ] fix footer icons 
-- [ ] componenten in lib bij de paginas zetten
+- [x] componenten in lib bij de paginas zetten
 - [ ] switch languages
 
 # Ideetjes
