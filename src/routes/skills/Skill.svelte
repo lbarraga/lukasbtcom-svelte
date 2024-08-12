@@ -7,7 +7,7 @@
     export let projects; // List of projects
 </script>
 
-<div class="p-6 variant-soft-surface m-5 space-y-4 text-center border border-gray-200 rounded-lg shadow-md">
+<div class="p-6 variant-soft-surface m-5 space-y-4 text-center border border-gray-200 rounded-lg shadow-md flex flex-col h-full">
     <!-- Skill Title -->
     <div>
         <h1 class="text-2xl font-semibold mb-4">{skill}</h1>
@@ -29,33 +29,29 @@
     <hr class="my-4"/>
 
     <!-- Description -->
-    <div class="mb-4">
+    <div class="mb-4 flex-grow">
         <p>{description}</p>
     </div>
 
     <!-- Projects List -->
-    {#if projects.length > 0}
-        <ul class="space-y-4">
-            {#each projects as project}
-                <li>
-                    <a href={project.link} class="card-hover variant-soft-surface flex items-center p-4">
-                        <!-- Icon -->
-                        <span class="badge-icon p-3 rounded-full mr-4">
-                            <i class="{project.icon} fa-2x"></i>
-                        </span>
+    <ul class="space-y-4">
+        {#each projects as project}
+            <li>
+                <a href={project.link} class="card-hover variant-soft-surface flex items-center p-4">
+                    <!-- Icon -->
+                    <i class="iconify text-3xl" data-icon={project.icon}></i>
 
-                        <!-- Title -->
-                        <h3 class="flex-auto text-lg font-semibold">
-                            {project.title}
-                        </h3>
+                    <!-- Title -->
+                    <h3 class="flex-auto text-lg font-semibold">
+                        {project.title}
+                    </h3>
 
-                        <!-- Arrow Icon -->
-                        <span>
-                            <i class="fa-solid fa-arrow-right text-xl"></i>
-                        </span>
-                    </a>
-                </li>
-            {/each}
-        </ul>
-    {/if}
+                    <!-- Arrow Icon -->
+                    <span>
+                        <i class="fa-solid fa-arrow-right text-xl"></i>
+                    </span>
+                </a>
+            </li>
+        {/each}
+    </ul>
 </div>

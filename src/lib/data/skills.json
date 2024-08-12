@@ -43,16 +43,16 @@
           "stars": 1.5
         }
       ],
-      "description": "Experience with building responsive and interactive web applications using modern frontend technologies.",
+      "description": "I completed a course in web development during my bachelor's program. Separately, I built this static website using Svelte, Skeleton UI, and Tailwind CSS. I also created a similar website using React, which is available on GitHub, although it hasn't been deployed.",
       "projects": [
         {
-          "title": "Portfolio Website",
-          "icon": "fa-solid fa-laptop",
+          "title": "This Svelte Website",
+          "icon": "streamline:web",
           "link": "https://your-portfolio-link.com"
         },
         {
-          "title": "E-commerce Site",
-          "icon": "fa-solid fa-store",
+          "title": "React Website",
+          "icon": "streamline:web",
           "link": "https://your-ecommerce-link.com"
         }
       ]
@@ -81,22 +81,17 @@
           "stars": 1.5
         }
       ],
-      "description": "Experience with building robust backend systems using modern technologies.",
+      "description": "As part of my bachelor's program, I was part of a team that developed a Python backend API for a project- submission and grading platform called Delphi. We used FastAPI to build the API, Pydantic for data validation, and SQLAlchemy as an SQL ORM.",
       "projects": [
         {
-          "title": "Portfolio Website",
-          "icon": "fa-solid fa-laptop",
+          "title": "Delphi",
+          "icon": "material-symbols:school-outline",
           "link": "https://your-portfolio-link.com"
-        },
-        {
-          "title": "E-commerce Site",
-          "icon": "fa-solid fa-store",
-          "link": "https://your-ecommerce-link.com"
         }
       ]
     },
     {
-      "skill": "Other Programming Languages",
+      "skill": "Systems and Object-Oriented Languages",
       "technologies": [
         {
           "name": "C",
@@ -117,7 +112,30 @@
           "name": "Kotlin",
           "icon": "mdi:language-kotlin",
           "stars": 1.5
+        }
+      ],
+      "description": "As part of my education, I've had the opportunity to work with a diverse set of programming languages. In C, I developed a command-line program for compressing files and sorting those compressed files. In Java, I implemented a tree structure that integrates features of a two-three tree with a semi-splay tree. In C#, I developed a command-line tool to copy a Cosmos DB database using the Cosmos DB .NET SDK. This tool was integrated into an Azure release pipeline during my student job at Zero Friction. I also contributed to a team project that developed a study tracker app in Kotlin.",
+      "projects": [
+        {
+          "title": "File Compression & Sorting",
+          "icon": "fa-solid fa-code",
+          "link": "https://your-python-projects-link.com"
         },
+        {
+          "title": "TwoThreeTree Implementations in Java",
+          "icon": "fa-solid fa-code",
+          "link": "https://your-python-projects-link.com"
+        },
+        {
+          "title": "Study Assistance App",
+          "icon": "fa-solid fa-code",
+          "link": "https://your-python-projects-link.com"
+        }
+      ]
+    },
+    {
+      "skill": "Functional and Declarative Languages",
+      "technologies": [
         {
           "name": "Haskell",
           "icon": "simple-icons:haskell",
@@ -129,15 +147,26 @@
           "stars": 2
         }
       ],
-      "description": "Proficient in various programming languages.",
+      "description": "In Haskell, I built a top-down RPG game engine and a simple Solitaire game. Additionally, I created a command-line chess engine using Prolog.",
       "projects": [
         {
-          "title": "Python Projects Collection",
+          "title": "Haskell RPG Tile Engine",
+          "icon": "fa-solid fa-code",
+          "link": "https://your-python-projects-link.com"
+        },
+        {
+          "title": "Patience Game Haskell",
+          "icon": "fa-solid fa-code",
+          "link": "https://your-python-projects-link.com"
+        },
+        {
+          "title": "Prolog Chess Engine",
           "icon": "fa-solid fa-code",
           "link": "https://your-python-projects-link.com"
         }
       ]
     },
+
     {
       "skill": "Natural Languages",
       "technologies": [
@@ -157,7 +186,7 @@
           "stars": 3
         }
       ],
-      "description": "Fluent in multiple spoken languages.",
+      "description": "I speak dutch natively, have good working proficiency in English, and intermediate proficiency in Spanish.",
       "projects": []
     },
     {
@@ -179,7 +208,7 @@
           "stars": 1.5
         }
       ],
-      "description": "Experienced in managing and interacting with databases.",
+      "description": "As part of a team project in a first year course on databases, we designed a fictional database schema for the belgian railway system. We used PostgreSQL to implement the schema and wrote queries to retrieve mock data from the database. I have briefly worked with MongoDB in a small project.",
       "projects": [
         {
           "title": "Database Schema Design",
@@ -202,7 +231,7 @@
           "stars": 2.5
         }
       ],
-      "description": "Proficient with version control systems.",
+      "description": "I frequently use Git from the command line and have experience with GitHub for collaboration.",
       "projects": [
         {
           "title": "GitHub Repositories",
@@ -225,7 +254,7 @@
           "stars": 2
         }
       ],
-      "description": "Experienced with various operating systems.",
+      "description": "I used Windows for most of my Life. When I started my studies in 2021, I switched to Linux. I have experience with Ubuntu and use Arch Linux as a daily driver.",
       "projects": [
         {
           "title": "Linux Customization Guide",
@@ -258,7 +287,7 @@
           "stars": 1
         }
       ],
-      "description": "Familiar with various tools and platforms.",
+      "description": "I own a synology NAS that functions as a personal home server. I use Docker to manage containers on my NAS. As part of using linux, I some experience with bash scripting. As part of a student job at zero friction, I came in contact with Azure.",
       "projects": [
         {
           "title": "Docker Container Management",
