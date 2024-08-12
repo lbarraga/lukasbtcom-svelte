@@ -1,0 +1,109 @@
+{
+  "profile": {
+    "name": "Lukas Barragan Torres",
+    "title": "Student Master of Science in Computer Science",
+    "links": [
+      {
+        "icon": "fa6-solid:envelope",
+        "link": "mailto:lukas.barragantorres@UGent.be",
+        "text": "lukas.barragantorres@UGent.be"
+      },
+      {
+        "icon": "fa6-brands:linkedin",
+        "link": "https://www.linkedin.com/in/lukas-barragan-torres/",
+        "text": "LinkedIn"
+      },
+      {
+        "icon": "fa-solid:map-marker-alt",
+        "link": "https://www.google.com/maps/search/?api=1&query=Ghent,+Belgium",
+        "text": "Gent, Belgium"
+      },
+      {
+        "icon": "fa6-brands:github",
+        "link": "https://github.com/lbarraga",
+        "text": "GitHub"
+      }
+    ]
+  },
+  "personalStatement": {
+    "title": "Personal Statement",
+    "content": "I am a highly motivated and detail-oriented student pursuing a Master of Science in Computer Science. With a solid foundation in programming and a passion for technology, I aim to leverage my skills in software development and problem-solving to contribute to innovative projects and make a positive impact in the tech industry."
+  },
+  "timeline": {
+    "title": "Timeline",
+    "content":  [
+      {
+        "id": 1,
+        "icon": "fa-solid:graduation-cap",
+        "date": "June 2021",
+        "title": "Finished High School",
+        "description": "Graduated from high school with a focus on science and mathematics."
+      },
+      {
+        "id": 2,
+        "icon": "fa6-solid:person-swimming",
+        "date": "Summer 2021",
+        "title": "Lifeguard",
+        "description": "Worked as a lifeguard in an indoor swimming pool, ensuring the safety of swimmers and providing assistance when needed."
+      },
+      {
+        "id": 3,
+        "icon": "fa6-solid:briefcase",
+        "date": "Summer 2023",
+        "title": "Worked for Zero Friction",
+        "description": "Gained practical experience in software development and project management while working on various projects."
+      },
+      {
+        "id": 4,
+        "icon": "fa-solid:graduation-cap",
+        "date": "June 2024",
+        "title": "Bachelor's in Informatics",
+        "description": "Completed a Bachelor's degree in Informatics, acquiring skills in programming, data structures, and computer systems."
+      },
+      {
+        "id": 5,
+        "icon": "fa6-solid:briefcase",
+        "date": "Summer 2024",
+        "title": "Worked for HPC UGent",
+        "description": "Contributed to high-performance computing projects, optimizing code and managing computational tasks."
+      }
+    ]
+  },
+  "extracurricular": {
+    "title": "Extra-curricular Activities",
+    "content": [
+      {
+        "title": "Swimming Instructor",
+        "description": "Instructed swimming lessons for various age groups and skill levels, focusing on water safety and technique improvement (6 Years)."
+      },
+      {
+        "title": "Self-Hosting Enthusiast",
+        "description": "Maintained a personal Synology NAS and self-hosted various applications, including web servers and databases."
+      },
+      {
+        "title": "Active in Sports and Hobbies",
+        "description": "Passionate about swimming, chess, and going to the gym. Regularly engage in these activities to maintain a balanced lifestyle."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "projects": {
+    "title": "Projects",
+    "content": ""
+  },
+  "certifications": {
+    "title": "Certifications",
+    "content": [
+      {
+        "title": "Lifeguard Certification",
+        "description": "Certified lifeguard with training in water safety, rescue techniques, and first aid."
+      },
+      {
+        "title": "Bachelor's in Informatics",
+        "description": "Comprehensive undergraduate program focusing on various aspects of computer science and information technology."
+      }
+    ]
+  }
+}

@@ -9,6 +9,7 @@
 - [ ] fix footer icons 
 - [x] componenten in lib bij de paginas zetten
 - [ ] switch languages
+- [ ] links naar certificates
 
 # Ideetjes
 
