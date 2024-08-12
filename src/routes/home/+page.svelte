@@ -2,7 +2,7 @@
     import Hero from "./Hero.svelte";
     import ExploreMyWebsite from "./ExploreMyWebsite.svelte";
 
-    let scrollTarget;
+    let scrollTarget; // <hr/> is scroll target
 
     function scrollToElement() {
         if (scrollTarget) {
@@ -12,6 +12,7 @@
 </script>
 
 <Hero {scrollToElement}/>
+
 <hr bind:this={scrollTarget}/>
 
 <section class="about-section p-10 text-center flex flex-col items-center">
