@@ -273,12 +273,12 @@
         },
         {
           "name": "Synology NAS",
-          "icon": "arcticons:synology-assistant",
+          "icon": "mdi:nas",
           "stars": 1.5
         },
         {
           "name": "Bash",
-          "icon": "devicon-plain:bash",
+          "icon": "mdi:bash",
           "stars": 2
         },
         {

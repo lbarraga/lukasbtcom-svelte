@@ -74,14 +74,17 @@
     "content": [
       {
         "title": "Swimming Instructor",
+        "icon": "fa6-solid:swimmer",
         "description": "Instructed swimming lessons for various age groups and skill levels, focusing on water safety and technique improvement (6 Years)."
       },
       {
         "title": "Self-Hosting Enthusiast",
+        "icon": "fa6-solid:server",
         "description": "Maintained a personal Synology NAS and self-hosted various applications, including web servers and databases."
       },
       {
         "title": "Active in Sports and Hobbies",
+        "icon": "fa6-solid:dumbbell",
         "description": "Passionate about swimming, chess, and going to the gym. Regularly engage in these activities to maintain a balanced lifestyle."
       }
     ]

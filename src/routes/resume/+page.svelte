@@ -5,6 +5,7 @@
 
     import resume from "$lib/data/resume.json";
     import skills from "$lib/data/skills.json";
+    import IconedListItem from "./IconedListItem.svelte";
 </script>
 
 <div class="variant-ghost-surface w-full md:w-3/5 mx-auto p-4 md:p-10">
@@ -34,58 +35,52 @@
     <!-- Personal Statement -->
     <div class="mb-10">
         <h2 class="text-2xl md:text-4xl mb-4 font-bold">{resume.personalStatement.title}</h2>
-        <p class="text-sm md:text-lg">{resume.personalStatement.content}</p>
+        <p class="md:text-lg">{resume.personalStatement.content}</p>
     </div>
 
-    <div class="flex flex-col md:flex-row items-start">
+    <!-- Grid Layout with Two Columns -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
-        <!-- Left side -->
-        <div class="w-full md:w-1/2 md:pr-4">
-
-            <!-- Timeline -->
+        <!-- Timeline -->
+        <div>
             <h2 class="text-2xl md:text-4xl mb-4 font-bold">{resume.timeline.title}</h2>
             <Timeline/>
-
-            <!-- Extracurricular Activities -->
-            <div class="mb-10">
-                <h2 class="text-2xl md:text-4xl mb-4 font-bold">{resume.extracurricular.title}</h2>
-                <div class="text-sm md:text-lg">
-                    {#each resume.extracurricular.content as activity}
-                        <div class="mb-4">
-                            <div class="font-semibold text-lg md:text-xl">{activity.title}</div>
-                            <p>{activity.description}</p>
-                        </div>
-                    {/each}
-                </div>
-            </div>
         </div>
 
-        <!-- Right side -->
-        <div class="w-full md:w-1/2 md:pl-4">
+        <!-- Skills Section -->
+        <div>
+            <h2 class="text-2xl md:text-4xl mb-4 font-bold">{resume.skills.title}</h2>
+            <ul class="space-y-5">
+                {#each skills.skills as skill}
+                    <IconedListItem
+                            icon="fluent-emoji-high-contrast:gem-stone"
+                            title={skill.skill}
+                            content={skill.technologies.map(t => t.name).join(', ')}
+                    />
+                {/each}
+            </ul>
+        </div>
 
-            <!-- Skills Section -->
-            <div class="mb-10">
-                <h2 class="text-2xl md:text-4xl mb-4 font-bold">{resume.skills.title}</h2>
-                <ul class="text-sm md:text-xl list-disc list-inside">
-                    {#each skills.skills as skill}
-                        <li class="mb-4 flex items-start">
-                            <i class="iconify text-sm mr-2 mt-2" data-icon="fa-solid:gem"></i>
 
-                            <div>
-                                <div class="font-semibold text-lg md:text-xl">{skill.skill}</div>
-                                <p class="text-sm md:text-lg">
-                                    {skill.technologies.map(t => t.name).join(', ')}
-                                </p>
-                            </div>
-                        </li>
-                    {/each}
-                </ul>
-            </div>
+        <!-- Extracurricular Activities -->
+        <div>
+            <h2 class="text-2xl md:text-4xl mb-4 font-bold">{resume.extracurricular.title}</h2>
+            <ul class="space-y-4">
+                {#each resume.extracurricular.content as activity}
+                    <IconedListItem
+                            icon="fluent-emoji-high-contrast:gem-stone"
+                            title={activity.title}
+                            content={activity.description}
+                    />
+                {/each}
+            </ul>
+        </div>
 
+        <div>
             <!-- Projects Section -->
-            <div class="mb-10">
+            <div>
                 <h2 class="text-2xl md:text-4xl mb-4 font-bold">Projects</h2>
-                <p class="text-sm md:text-lg">
+                <p class="text-sm md:text-lg mb-10">
                     I have worked on various personal and group projects.
                     More details can be found in the
                     <a href='/portfolio' class='hover:underline font-bold'>Portfolio</a>
@@ -93,25 +88,22 @@
                 </p>
             </div>
 
+
             <!-- Certifications Section -->
-            <div class="mb-10">
+            <div>
                 <h2 class="text-2xl md:text-4xl mb-4 font-bold">{resume.certifications.title}</h2>
-                <div class="text-sm md:text-lg">
+                <ul>
                     {#each resume.certifications.content as cert}
-                        <div class="mb-6">
-                            <div class="flex items-center ">
-                                <i class="iconify mr-2 text-2xl" data-icon="ph:certificate"></i>
-                                <h2 class="font-semibold">
-                                    {cert.title}
-                                </h2>
-                            </div>
-                            <p>{cert.description}</p>
-                        </div>
+                        <IconedListItem
+                                icon="ph:certificate"
+                                title={cert.title}
+                                content={cert.description}
+                        />
                     {/each}
-                </div>
+                </ul>
             </div>
 
-
         </div>
+
     </div>
 </div>
