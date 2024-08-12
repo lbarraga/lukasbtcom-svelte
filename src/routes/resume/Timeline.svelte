@@ -2,7 +2,7 @@
     import resume from '$lib/data/resume.json';
 </script>
 
-<ol class="relative border-s-4 border-primary-500">
+<ol class="relative border-s-4 border-primary-900-50-token">
     {#each resume.timeline.content as item (item.id)}
         <li class="mb-10 ms-6">
             <!-- Icon -->
