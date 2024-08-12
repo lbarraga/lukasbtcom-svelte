@@ -172,17 +172,17 @@
       "technologies": [
         {
           "name": "English",
-          "icon": "material-symbols:language",
+          "icon": "subway:world-1",
           "stars": 2.5
         },
         {
           "name": "Spanish",
-          "icon": "material-symbols:language",
+          "icon": "subway:world-1",
           "stars": 2
         },
         {
           "name": "Dutch",
-          "icon": "material-symbols:language",
+          "icon": "subway:world-1",
           "stars": 3
         }
       ],
