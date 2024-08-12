@@ -27,15 +27,9 @@
 </div>
 
 <ul>
-    {#each filteredData as item}
+    {#each filteredData as item (item.id)}
         <li>
-            <ProjectCard
-                title={item.title}
-                description={item.description}
-                icon={item.icon}
-                link={item.link}
-                bullets={item.bullets}
-            />
+            <ProjectCard  {...item}/>
         </li>
     {/each}
 </ul>
