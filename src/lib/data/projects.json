@@ -5,7 +5,7 @@
     "description": "Transform any written story into a captivating short video!\nVideoStoryteller uses cutting-edge AI to visualize your tales,\nenhancing them with dynamic subtitles and AI-generated imagery.\nWhether it's a thrilling tale from Reddit or a personal anecdote,\nVideoStoryteller breathes life into words,\nmaking them more immersive and shareable than ever before.",
     "avatar": "https://lukasbt.com/icons/reddit.png",
     "link": "https://www.github.com",
-    "icon": "fa-solid fa-book",
+    "icon": "jam:reddit",
     "bullets": [
       "Built with React, Node.js, and Firebase",
       "Leverages OpenAI's GPT-3 for text-to-image generation",
@@ -19,7 +19,7 @@
     "description": "Welcome to my personal website, a digital hub crafted with love using React.js.\nWritten entirely in JavaScript, this platform stands as a testament to my journey as a developer.\nHosted seamlessly on Firebase, ensuring smooth performance and uptime.\nDive in, explore, and if you've got suggestions or improvements, pull requests are always appreciated!",
     "avatar": "https://lukasbt.com/icons/website.svg",
     "link": "https://github.com/yourusername/personal-website",
-    "icon": "fa-solid fa-globe",
+    "icon": "arcticons:emoji-web",
     "bullets": [
       "Built using React: The power of modern web development in action.",
       "Interactive & Dynamic: Engaging elements bringing my story to life.",
@@ -34,7 +34,7 @@
     "description": "Studeez is an Android app developed in Kotlin by Bram Reyniers, Tibo de Peuter, Rune Dyselinck, and myself.\nThis app serves as a simple and personal tool for managing study tasks and time efficiently.\nUsers can easily add subjects and delineate tasks within them, keeping track of their progress through various types of timers.\nMoreover, it includes a home feed where users can see their daily study progress at a glance, fostering a focused and individualized study environment.",
     "avatar": "https://lukasbt.com/icons/studeez.png",
     "link": "https://github.com/yourusername/studeez-app",
-    "icon": "fa-brands fa-android",
+    "icon": "ph:student-thin",
     "bullets": [
       "Add and manage subjects and tasks within them",
       "Multiple timer options including customizable timers",
@@ -48,7 +48,7 @@
     "description": "This project contains Java implementations of different tree structures, including the TwoThreeTree, SemiSplay TwoThreeTree, and Bottom-Up SemiSplay TwoThreeTree.\nThe SemiSplay TwoThreeTree is a particular variant that integrates the principles of semi-splay trees into a two-three tree, as documented in the original paper by Sleator and Tarjan.",
     "avatar": "https://lukasbt.com/icons/23tree.png",
     "link": "https://github.com/yourusername/two-three-tree-java",
-    "icon": "fa-solid fa-code",
+    "icon": "ph:tree-structure-thin",
     "bullets": [
       "TwoThreeTree: A basic form of the data structure facilitating balanced tree properties.",
       "SemiSplay TwoThreeTree: A variant that combines semi splay tree principles within a two-three tree structure.",
@@ -62,7 +62,7 @@
     "description": "This project represents a small yet robust RPG tile engine developed in Haskell.\nIt serves as a foundational platform for creating tile-based RPG adventures utilizing JSON-like configuration files housed in a levels folder.\nUsers can quickly sketch and design levels, customize game assets, and immerse themselves in tile-based exploration adventures.",
     "avatar": "https://lukasbt.com/icons/player.png",
     "link": "https://github.com/yourusername/haskell-rpg-tile-engine",
-    "icon": "fa-solid fa-dice-d20",
+    "icon": "arcticons:gametree",
     "bullets": [
       "Simple Level Design: Create levels effortlessly by defining components such as items, enemies, and doors in user-friendly JSON-like files.",
       "Customizable Assets: Modify attributes like appearance and damage potential of game assets as per your preferences.",
@@ -75,7 +75,7 @@
     "description": "A Haskell implementation of the traditional Patience Solitaire game.\nThis project utilizes functional programming paradigms to facilitate an interactive gaming experience, where users can select cards using arrow keys and the SPACE bar, and rotate the stack with the ENTER key.",
     "avatar": "https://lukasbt.com/icons/patience.png",
     "link": "https://github.com/yourusername/patience-game-haskell",
-    "icon": "fa-solid fa-gamepad",
+    "icon": "arcticons:solitairecg",
     "bullets": [
       "Functional Programming: The game leverages Haskell's functional programming approaches.",
       "User Interaction: Allows card selection using arrow keys and SPACE bar.",

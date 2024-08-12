@@ -1,17 +1,15 @@
 <script>
-    import { Avatar } from "@skeletonlabs/skeleton";
-
     export let title;
     export let description;
     export let link;
-    export let avatar;
+    export let icon;
     export let bullets;
 </script>
 
 <div class="relative card variant-soft-surface p-6 m-10 card-hover flex flex-col items-center lg:flex-row lg:items-start space-y-6 lg:space-y-0 lg:space-x-6">
     <!-- Icon -->
-    <div class="flex-shrink-0 lg:mr-6">
-        <Avatar src={avatar} width="w-32 lg:w-64" rounded="rounded-full" />
+    <div class="flex-shrink-0 lg:mr-6 self-center">
+        <i class="iconify text-[12rem]" data-icon="{icon}"></i>
     </div>
 
     <div class="flex-1 text-center lg:text-left">
@@ -27,14 +25,14 @@
         </p>
 
         <!-- Bullets -->
-        <ul class="list-disc pl-6 space-y-4 text-left lg:text-left">
+        <div class="grid grid-cols-1 md:grid-cols-1 gap-4 text-left">
             {#each bullets as item}
-                <li class="flex items-center space-x-2">
+                <div class="flex items-center space-x-2">
                     <i class="fa-solid fa-gem"></i>
-                    <span class="flex-auto text-sm lg:text-base">{item}</span>
-                </li>
+                    <span class="text-sm lg:text-base">{item}</span>
+                </div>
             {/each}
-        </ul>
+        </div>
     </div>
 
     <div class="p-10 self-center">

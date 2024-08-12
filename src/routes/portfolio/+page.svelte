@@ -2,11 +2,11 @@
     import ProjectCard from "./ProjectCard.svelte";
     import { page } from '$app/stores'
 
-    import data from "$lib/data/projects.json";
+    import projects from "$lib/data/projects.json";
 
     let  searchString = $page.url.searchParams.get('search') || ""
 
-    $: filteredData = data.filter(item => {
+    $: filteredData = projects.filter(item => {
         const searchTerm = searchString.toLowerCase();
         return (
             item.title.toLowerCase().includes(searchTerm) ||
@@ -32,7 +32,7 @@
             <ProjectCard
                 title={item.title}
                 description={item.description}
-                avatar={item.avatar}
+                icon={item.icon}
                 link={item.link}
                 bullets={item.bullets}
             />
