@@ -21,7 +21,7 @@
             <div class="flex flex-col items-center text-center m-2">
                 <i class="iconify text-5xl" data-icon="{tech.icon}"></i>
                 <span class="mt-2 text-lg font-medium">{tech.name}</span>
-                <StarRating className="text-xs mt-1" value={tech.value} max={3}/>
+                <StarRating className="text-xs mt-1" value={tech.stars} max={3}/>
             </div>
         {/each}
     </div>
