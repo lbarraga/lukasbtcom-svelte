@@ -166,54 +166,26 @@
         }
       ]
     },
-
     {
-      "skill": "Natural Languages",
+      "skill": "Operating Systems",
       "technologies": [
         {
-          "name": "English",
-          "icon": "subway:world-1",
-          "stars": 2.5
-        },
-        {
-          "name": "Spanish",
-          "icon": "subway:world-1",
+          "name": "Linux",
+          "icon": "fa6-brands:linux",
           "stars": 2
         },
         {
-          "name": "Dutch",
-          "icon": "subway:world-1",
-          "stars": 3
+          "name": "Windows",
+          "icon": "fa6-brands:windows",
+          "stars": 2
         }
       ],
-      "description": "I speak dutch natively, have good working proficiency in English, and intermediate proficiency in Spanish.",
-      "projects": []
-    },
-    {
-      "skill": "Database Management",
-      "technologies": [
-        {
-          "name": "SQL",
-          "icon": "tabler:sql",
-          "stars": 1.5
-        },
-        {
-          "name": "PostgreSQL",
-          "icon": "akar-icons:postgresql-fill",
-          "stars": 1.5
-        },
-        {
-          "name": "MongoDB",
-          "icon": "simple-icons:mongodb",
-          "stars": 1.5
-        }
-      ],
-      "description": "As part of a team project in a first year course on databases, we designed a fictional database schema for the belgian railway system. We used PostgreSQL to implement the schema and wrote queries to retrieve mock data from the database. I have briefly worked with MongoDB in a small project.",
+      "description": "I used Windows for most of my Life. When I started my studies in 2021, I switched to Linux. I have experience with Ubuntu and use Arch Linux as a daily driver.",
       "projects": [
         {
-          "title": "Database Schema Design",
-          "icon": "fa-solid fa-database",
-          "link": "https://your-database-schema-link.com"
+          "title": "My Vim Configuration",
+          "icon": "simple-icons:vim",
+          "link": "https://your-linux-guide-link.com"
         }
       ]
     },
@@ -235,33 +207,32 @@
       "projects": [
         {
           "title": "GitHub Repositories",
-          "icon": "fa-brands fa-github",
+          "icon": "mdi:source-repository-multiple",
           "link": "https://your-github-repos-link.com"
         }
       ]
     },
     {
-      "skill": "Operating Systems",
+      "skill": "Database Management",
       "technologies": [
         {
-          "name": "Linux",
-          "icon": "fa6-brands:linux",
-          "stars": 2
+          "name": "SQL",
+          "icon": "tabler:sql",
+          "stars": 1.5
         },
         {
-          "name": "Windows",
-          "icon": "fa6-brands:windows",
-          "stars": 2
+          "name": "PostgreSQL",
+          "icon": "akar-icons:postgresql-fill",
+          "stars": 1.5
+        },
+        {
+          "name": "MongoDB",
+          "icon": "simple-icons:mongodb",
+          "stars": 1.5
         }
       ],
-      "description": "I used Windows for most of my Life. When I started my studies in 2021, I switched to Linux. I have experience with Ubuntu and use Arch Linux as a daily driver.",
-      "projects": [
-        {
-          "title": "Linux Customization Guide",
-          "icon": "fa-solid fa-cogs",
-          "link": "https://your-linux-guide-link.com"
-        }
-      ]
+      "description": "As part of a team project in a first year course on databases, we designed a fictional database schema for the belgian railway system. We used PostgreSQL to implement the schema and wrote queries to retrieve mock data from the database. I have briefly worked with MongoDB in a small project.",
+      "projects": []
     },
     {
       "skill": "Other Tools",
@@ -288,18 +259,29 @@
         }
       ],
       "description": "I own a synology NAS that functions as a personal home server. I use Docker to manage containers on my NAS. As part of using linux, I some experience with bash scripting. As part of a student job at zero friction, I came in contact with Azure.",
-      "projects": [
+      "projects": []
+    },
+    {
+      "skill": "Natural Languages",
+      "technologies": [
         {
-          "title": "Docker Container Management",
-          "icon": "fa-brands fa-docker",
-          "link": "https://your-docker-link.com"
+          "name": "English",
+          "icon": "subway:world-1",
+          "stars": 2.5
         },
         {
-          "title": "Azure Deployment Scripts",
-          "icon": "fa-brands fa-microsoft",
-          "link": "https://your-azure-scripts-link.com"
+          "name": "Spanish",
+          "icon": "subway:world-1",
+          "stars": 2
+        },
+        {
+          "name": "Dutch",
+          "icon": "subway:world-1",
+          "stars": 3
         }
-      ]
+      ],
+      "description": "I speak dutch natively, have good working proficiency in English, and intermediate proficiency in Spanish.",
+      "projects": []
     }
   ]
 }

@@ -39,7 +39,7 @@
             <li>
                 <a href={project.link} class="card-hover variant-soft-surface flex items-center p-4">
                     <!-- Icon -->
-                    <i class="iconify text-3xl" data-icon={project.icon}></i>
+                    <!--i class="iconify text-3xl" data-icon={project.icon}></i-->
 
                     <!-- Title -->
                     <h3 class="flex-auto text-lg font-semibold">
