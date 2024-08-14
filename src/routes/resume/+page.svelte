@@ -61,6 +61,33 @@
             </ul>
         </div>
 
+        <div>
+            <!-- Certifications Section -->
+            <div class="mb-10">
+                <h2 class="text-2xl md:text-4xl mb-4 font-bold">{resume.certifications.title}</h2>
+                <ul class="space-y-5">
+                    {#each resume.certifications.content as cert}
+                        <IconedListItem
+                                icon="ph:certificate"
+                                title={cert.title}
+                                content={cert.description}
+                        />
+                    {/each}
+                </ul>
+            </div>
+
+            <!-- Projects Section -->
+            <div>
+                <h2 class="text-2xl md:text-4xl mb-4 font-bold">Projects</h2>
+                <p class="text-sm md:text-lg mb-10">
+                    I have worked on various personal and group projects.
+                    More details can be found in the
+                    <a href='/portfolio' class='hover:underline font-bold'>Portfolio</a>
+                    section of my website.
+                </p>
+            </div>
+
+        </div>
 
         <!-- Extracurricular Activities -->
         <div>
@@ -76,34 +103,7 @@
             </ul>
         </div>
 
-        <div>
-            <!-- Projects Section -->
-            <div>
-                <h2 class="text-2xl md:text-4xl mb-4 font-bold">Projects</h2>
-                <p class="text-sm md:text-lg mb-10">
-                    I have worked on various personal and group projects.
-                    More details can be found in the
-                    <a href='/portfolio' class='hover:underline font-bold'>Portfolio</a>
-                    section of my website.
-                </p>
-            </div>
 
-
-            <!-- Certifications Section -->
-            <div>
-                <h2 class="text-2xl md:text-4xl mb-4 font-bold">{resume.certifications.title}</h2>
-                <ul>
-                    {#each resume.certifications.content as cert}
-                        <IconedListItem
-                                icon="ph:certificate"
-                                title={cert.title}
-                                content={cert.description}
-                        />
-                    {/each}
-                </ul>
-            </div>
-
-        </div>
 
     </div>
 </div>
