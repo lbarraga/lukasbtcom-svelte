@@ -82,7 +82,7 @@
                 <p class="text-sm md:text-lg mb-10">
                     I have worked on various personal and group projects.
                     More details can be found in the
-                    <a href='/portfolio' class='hover:underline font-bold'>Portfolio</a>
+                    <a href='/skills' class='hover:underline font-bold'>Skills</a>
                     section of my website.
                 </p>
             </div>

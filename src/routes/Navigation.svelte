@@ -14,7 +14,6 @@
         <li><a href="/" on:click={drawerClose}>Home</a></li>
         <li><a href="/skills" on:click={drawerClose}>Skills</a></li>
         <li><a href="/resume" on:click={drawerClose}>Resume</a></li>
-        <li><a href="/portfolio" on:click={drawerClose}>Portfolio</a></li>
         <li><a href="/contact" on:click={drawerClose}>Contact</a></li>
     </ul>
 </nav>

@@ -23,12 +23,6 @@
         "link": "/resume"
       },
       {
-        "title": "Portfolio",
-        "description": "Discover the projects I've worked on and the technologies I've used.",
-        "icon": "fa6-solid:paintbrush",
-        "link": "/portfolio"
-      },
-      {
         "title": "Contact",
         "description": "Get in touch with me and let's connect!",
         "icon": "fa-solid:user-friends",

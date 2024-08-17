@@ -30,7 +30,6 @@
             <a class="btn hover:variant-soft-primary" href="/home">Home</a>
             <a class="btn hover:variant-soft-primary" href="/skills">Skills</a>
             <a class="btn hover:variant-soft-primary" href="/resume">Resume</a>
-            <a class="btn hover:variant-soft-primary" href="/portfolio">Portfolio</a>
             <a class="btn hover:variant-soft-primary" href="/contact">Contact</a>
         </div>
         <LightSwitch />
