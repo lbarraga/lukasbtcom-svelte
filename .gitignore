@@ -22,3 +22,10 @@ vite.config.ts.timestamp-*
 
 # Jetbrains
 .idea
+
+# Firebase
+firebase.json
+firebase-debug.log
+.firebaserc
+.firebase/
+public
