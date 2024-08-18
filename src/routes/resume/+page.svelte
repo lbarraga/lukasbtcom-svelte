@@ -59,6 +59,17 @@
                     />
                 {/each}
             </ul>
+
+            <!-- Projects Section -->
+            <div class="mt-10">
+                <h2 class="text-2xl md:text-4xl mb-4 font-bold">Projects</h2>
+                <p class="text-sm md:text-lg mb-10">
+                    I have worked on various personal and group projects.
+                    More details can be found in the
+                    <a href='/skills' class='hover:underline font-bold'>Skills</a>
+                    section of my website.
+                </p>
+            </div>
         </div>
 
         <div>
@@ -76,16 +87,7 @@
                 </ul>
             </div>
 
-            <!-- Projects Section -->
-            <div>
-                <h2 class="text-2xl md:text-4xl mb-4 font-bold">Projects</h2>
-                <p class="text-sm md:text-lg mb-10">
-                    I have worked on various personal and group projects.
-                    More details can be found in the
-                    <a href='/skills' class='hover:underline font-bold'>Skills</a>
-                    section of my website.
-                </p>
-            </div>
+
 
         </div>
 

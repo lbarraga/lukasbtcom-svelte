@@ -55,13 +55,20 @@
       },
       {
         "id": 4,
-        "icon": "fa-solid:graduation-cap",
-        "date": "June 2024",
-        "title": "Bachelor's in Informatics",
-        "description": "Completed a Bachelor's degree in Informatics, acquiring skills in programming, data structures, and computer systems."
+        "icon": "healthicons:group-discussion-meetingx3",
+        "date": "Academic Year 2023-2024",
+        "title": "Student member of the Computer Science Education Committee",
+        "description": "Joined the committee with another third-year student to represent the interests and concerns of third-year Bachelor students."
       },
       {
         "id": 5,
+        "icon": "fa-solid:graduation-cap",
+        "date": "June 2024",
+        "title": "Bachelor's in Informatics",
+        "description": "Graduated cum laude with a Bachelor's degree in Informatics, passing all exams on the first attempt."
+      },
+      {
+        "id": 6,
         "icon": "fa6-solid:briefcase",
         "date": "Summer 2024",
         "title": "Worked for HPC UGent",
