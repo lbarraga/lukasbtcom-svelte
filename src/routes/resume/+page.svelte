@@ -1,7 +1,5 @@
 <script>
     import Timeline from "./Timeline.svelte";
-    import profilePic from "$lib/images/me-casual.jpg";
-    import { Avatar } from "@skeletonlabs/skeleton";
 
     import resume from "$lib/data/resume.json";
     import skills from "$lib/data/skills.json";
@@ -12,7 +10,7 @@
 
     <!-- Profile Picture and Heading -->
     <div class="flex flex-col md:flex-row mb-10">
-        <Avatar src={profilePic} rounded="rounded-xl" class="mb-4 md:mb-0 md:mr-4 w-44"/>
+        <enhanced:img src="$lib/images/me-casual.jpg" alt="Casual me" class="mb-4 md:mb-0 md:mr-4 w-44 rounded-xl"/>
         <div>
             <h1 class="text-3xl md:text-5xl mb-2 font-extrabold">
                 {resume.profile.name}

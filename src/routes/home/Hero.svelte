@@ -1,5 +1,4 @@
 <script>
-    import ImageOfMe from "$lib/images/me-bw.jpg";
     import AccentText from "./AccentText.svelte";
 
     export let scrollToElement
@@ -8,7 +7,9 @@
 <div class="flex flex-col md:flex-row items-center m-10">
 
     <!-- Image of me -->
-    <img class="rounded-3xl w-4/5 md:w-1/3 h-auto" src={ImageOfMe} alt="Me" />
+    <div class="w-4/5 md:w-5/12 rounded-3xl overflow-hidden">
+        <enhanced:img src="$lib/images/me-bw.jpg" alt="Me" class="w-full h-auto" />
+    </div>
 
 
     <div class="flex items-center justify-center">
