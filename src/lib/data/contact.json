@@ -1,0 +1,22 @@
+[
+  {
+    "href": "https://github.com/lbarraga",
+    "icon": "fa6-brands:github",
+    "text": "GitHub"
+  },
+  {
+    "href": "https://www.linkedin.com/in/lukas-barragan-torres/",
+    "icon": "fa6-brands:linkedin",
+    "text": "Linkedin"
+  },
+  {
+    "href": "mailto:elbarragan03@gmail.com",
+    "icon": "fa6-solid:envelope",
+    "text": "Email"
+  },
+  {
+    "href": "https://keys.openpgp.org/vks/v1/by-fingerprint/7D7927AE9E9E61C7736EE6A8D78940BF1814BF2E",
+    "icon": "material-symbols:encrypted",
+    "text": "PGP Public Key"
+  }
+]
