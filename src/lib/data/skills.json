@@ -275,6 +275,11 @@
           "stars": 2
         },
         {
+          "name": "French",
+          "icon": "subway:world-1",
+          "stars": 1
+        },
+        {
           "name": "Dutch",
           "icon": "subway:world-1",
           "stars": 3
