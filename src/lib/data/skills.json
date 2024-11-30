@@ -48,12 +48,7 @@
         {
           "title": "This Svelte Website",
           "icon": "streamline:web",
-          "link": "https://your-portfolio-link.com"
-        },
-        {
-          "title": "React Website",
-          "icon": "streamline:web",
-          "link": "https://your-ecommerce-link.com"
+          "link": "https://github.com/lbarraga/lukasbtcom-svelte"
         }
       ]
     },
@@ -86,7 +81,7 @@
         {
           "title": "Delphi",
           "icon": "material-symbols:school-outline",
-          "link": "https://your-portfolio-link.com"
+          "link": "https://github.com/SELab-2/UGent-2"
         }
       ]
     },
@@ -114,22 +109,22 @@
           "stars": 1.5
         }
       ],
-      "description": "As part of my education, I've had the opportunity to work with a diverse set of programming languages. In C, I developed a command-line program for compressing files and sorting those compressed files. In Java, I implemented a tree structure that integrates features of a two-three tree with a semi-splay tree. In C#, I developed a command-line tool to copy a Cosmos DB database using the Cosmos DB .NET SDK. This tool was integrated into an Azure release pipeline during my student job at Zero Friction. I also contributed to a team project that developed a study tracker app in Kotlin.",
+      "description": "As part of my education, I've had the opportunity to work with a diverse set of programming languages. In C, I developed an algorithm and command-line program for compressing files and sorting those compressed files. In Java, I implemented a tree structure that integrates features of a two-three tree with a semi-splay tree. In C#, I developed a command-line tool to copy a Cosmos DB database using the Cosmos DB .NET SDK. This tool was integrated into an Azure release pipeline during my student job at Zero Friction. I also contributed to a team project that developed a study tracker app in Kotlin.",
       "projects": [
         {
-          "title": "File Compression & Sorting",
+          "title": "Compressed sorting in C",
           "icon": "fa-solid fa-code",
-          "link": "https://your-python-projects-link.com"
+          "link": "https://github.com/lbarraga/compressed-sorting-AD3"
         },
         {
           "title": "TwoThreeTree Implementations in Java",
           "icon": "fa-solid fa-code",
-          "link": "https://your-python-projects-link.com"
+          "link": "https://github.com/lbarraga/TwoThreeTree"
         },
         {
           "title": "Study Assistance App",
           "icon": "fa-solid fa-code",
-          "link": "https://your-python-projects-link.com"
+          "link": "https://github.com/lbarraga/Studeez"
         }
       ]
     },
@@ -152,17 +147,17 @@
         {
           "title": "Haskell RPG Tile Engine",
           "icon": "fa-solid fa-code",
-          "link": "https://your-python-projects-link.com"
+          "link": "https://github.com/lbarraga/game-engine-haskell"
         },
         {
           "title": "Patience Game Haskell",
           "icon": "fa-solid fa-code",
-          "link": "https://your-python-projects-link.com"
+          "link": "https://github.com/lbarraga/patience-game-haskell"
         },
         {
           "title": "Prolog Chess Engine",
           "icon": "fa-solid fa-code",
-          "link": "https://your-python-projects-link.com"
+          "link": "https://github.com/lbarraga/prolog-chess-engine"
         }
       ]
     },
@@ -181,13 +176,7 @@
         }
       ],
       "description": "I used Windows for most of my Life. When I started my studies in 2021, I switched to Linux. I have experience with Ubuntu and use Arch Linux as a daily driver.",
-      "projects": [
-        {
-          "title": "My Vim Configuration",
-          "icon": "simple-icons:vim",
-          "link": "https://your-linux-guide-link.com"
-        }
-      ]
+      "projects": []
     },
     {
       "skill": "Version Control",
@@ -208,7 +197,7 @@
         {
           "title": "GitHub Repositories",
           "icon": "mdi:source-repository-multiple",
-          "link": "https://your-github-repos-link.com"
+          "link": "https://github.com/lbarraga"
         }
       ]
     },
@@ -258,7 +247,7 @@
           "stars": 1
         }
       ],
-      "description": "I own a synology NAS that functions as a personal home server. I use Docker to manage containers on my NAS. As part of using linux, I some experience with bash scripting. As part of a student job at zero friction, I came in contact with Azure.",
+      "description": "I own a synology NAS that functions as a personal home server. I use Docker to manage containers on my NAS. As part of using linux, I have some experience with bash scripting. As part of a student job at Zero Friction, I came in contact with Azure.",
       "projects": []
     },
     {
